@@ -1,0 +1,32 @@
+@media screen and (min-width: 801px) {
+    #profile-pic {
+        height: auto;
+        width: 250px;
+        margin: 25px 0 25px 30px;
+    }
+
+    .about-text {
+        font-size: 12pt;
+        text-align: left;
+        vertical-align: middle;
+        padding-left: 60px;
+        padding-right: 40px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+}
+
+@media screen and (max-width: 800px) {
+    #profile-pic {
+        height: auto;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .about-text {
+        font-size: 10pt;
+        text-align: left;
+        vertical-align: middle;
+      }
+}

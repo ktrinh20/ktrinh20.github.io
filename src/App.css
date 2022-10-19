@@ -1,38 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  text-align: left;
+  height: 100vh;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: black;
+}
+
+.emphasize-text{
+  color: #208AAE;
+  font-weight: bold;
+}
+
+.horizontal-flex {
+  display: flex;
+  flex-direction: horizontal;
+}
+
+.vertical-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.center-in-flex {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+a {
+  color: #208AAE;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.gray {
+  color: gray;
+}
+
+hr {
+  border: 0;
+  clear: both;
+  display: block;
+  background-color: black;
+  height: 1px;
+  width: 100%;
+}
+
+#full-name-header {
+  font-size: 48pt;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-family: 'League Spartan', 'Open Sans ExtraBold';
+}
+
+#professional-title {
+  font-size: 20pt;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: 'League Spartan', 'Open Sans ExtraBold';
+  color: #208AAE;
+}
+
+@media screen and (min-width: 961px) {
+  #top-hr {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+
+  .main-container {
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
+
+  #footer-text {
+    color: gray;
+    padding-top: 1px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+  
+  #bottom-hr {
+    margin-top: 10px;
+  }
+
+}
+
+@media screen and (max-width: 960px) {
+
+  .main-container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+
+  #full-name-header {
+    font-size: max(24pt, 5vw);
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-family: 'League Spartan', 'Open Sans ExtraBold';
+  }
+  
+  #professional-title {
+    font-size: max(12pt, 3vw);
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'League Spartan', 'Open Sans ExtraBold';
+    color: #208AAE;
+    }
+
+    #footer-text {
+      font-size: 10pt;
+      color: gray;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      text-align: center;
+    }
 }

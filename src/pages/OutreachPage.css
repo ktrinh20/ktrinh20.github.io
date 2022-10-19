@@ -1,0 +1,56 @@
+.outreach-container {
+    align-content: start;
+}
+
+#wsycs-summary-container {
+    background: rgba(32, 138, 174, 0.1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 961px) {
+
+    #outreach-statement-header {
+        font-size: 12pt;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 10px;
+        margin-bottom: -10px;
+    }
+
+    .outreach-text {
+        font-size: 12pt;
+        text-align: left;
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    .outreach-pic {
+        width: 150px;
+        height: auto;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    #outreach-statement-header {
+        font-size: 10pt;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .outreach-pic {
+        width: 100%;
+        height: auto;
+        margin: 10px;
+        align-self: center;
+    }
+
+    .outreach-text{
+        font-size: 10pt;
+        text-align: left;
+        padding: 10px;
+        margin-top: 0;
+      }
+}
