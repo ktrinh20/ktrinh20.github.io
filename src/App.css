@@ -18,6 +18,41 @@
   color: black;
 }
 
+.main-header {
+  display: flex;
+  flex-direction: row;
+  max-height: 30vh;
+  justify-content: center;
+}
+
+.left {
+  flex-direction: column;
+  flex: 0 1 auto;
+  max-width: calc(20% - 10px);
+  align-items: flex-end;
+}
+
+.pic-holder {
+  height: 100%;
+  flex-direction: row;
+  align-content: flex-end;
+  padding: 5px 0;
+}
+
+#kevin-logo {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.right {
+  flex: 0 1 auto;
+  max-width: calc(80% - 10px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .emphasize-text{
   color: #208AAE;
   font-weight: bold;
@@ -59,14 +94,14 @@ hr {
   font-size: 48pt;
   margin-top: 30px;
   margin-bottom: 0;
-  font-family: 'League Spartan', 'Open Sans ExtraBold';
+  font-family: 'League Spartan', 'Open Sans ExtraBold', sans-serif;
 }
 
 #professional-title {
   font-size: 20pt;
   margin-top: 0;
   margin-bottom: 10px;
-  font-family: 'League Spartan', 'Open Sans ExtraBold';
+  font-family: 'League Spartan', 'Open Sans ExtraBold', sans-serif;
   color: #208AAE;
 }
 
@@ -104,14 +139,14 @@ hr {
     font-size: max(24pt, 5vw);
     margin-top: 12px;
     margin-bottom: 0;
-    font-family: 'League Spartan', 'Open Sans ExtraBold';
+    font-family: 'League Spartan', 'Open Sans ExtraBold', sans-serif;
   }
   
   #professional-title {
-    font-size: max(12pt, 3vw);
+    font-size: max(10pt, 3vw);
     margin-top: 0;
     margin-bottom: 10px;
-    font-family: 'League Spartan', 'Open Sans ExtraBold';
+    font-family: 'League Spartan', 'Open Sans ExtraBold', sans-serif;
     color: #208AAE;
     }
 

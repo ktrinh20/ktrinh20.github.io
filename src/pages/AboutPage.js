@@ -17,9 +17,9 @@ function AboutPage() {
                 Bowdoin College in 2019 as a first-generation student. Also, I am a NASA FINESST future investigator 
                 (FI) studying the internal differentiation, evolution, and potential habitability of Jupiter’s moon, 
                 Europa.<br/><br/>
-                My research focuses on the evolution of icy moons. Specifically, I hope to understand how deep 
-                interior processes affect the potential for life in ocean worlds. Outside of research, I enjoy 
-                hiking, boxing, weightlifting, STEAM outreach, and spending time with my pet cockatiel – Acadia.
+                In my research, I use numerical models to investigate the <b>geophysics and geochemistry of 
+                icy moons</b>. I am particularly interested in large-scale processes such as ocean formation,
+                metallic core formation, dynamo activity, and (seafloor) volcanism.
                 <br/><br/>
                 You can contact me at <span className="emphasize-text">kttrinh1@asu.edu</span>
                 </p>

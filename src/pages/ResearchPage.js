@@ -17,9 +17,9 @@ function ResearchPage() {
             <div className="vertical-flex">
                 <div id="research-summary-container">
                     <p className="research-text"><strong>I study the formation, evolution, and potential habitability
-                    of icy moons.</strong> Currently, I am focused on writing code to simulate the structural, 
+                    of icy moons.</strong> Currently, I write code to simulate the structural, 
                     thermal, and magnetic history of Jupiter’s moon, Europa, while exploring the geochemical 
-                    consequences of my models. Later, I will expand to other moons in the outer solar system.
+                    consequences of my models. Later, I will expand my research scope to other moons in the outer solar system.
                     <br/><br/>
                     Below are some questions that I’m investigating for my primary PhD research, funded by
                     <strong> NASA FINESST</strong>.
@@ -34,7 +34,7 @@ function ResearchPage() {
                     origin of ocean-ice shells. Large icy moons (e.g. Ganymede and Callisto) require 
                     accreted ice to explain most or all of their water budget. However, (rocky) icy 
                     moons like Europa could potentially form their ocean-ice shells by devolatizing 
-                    accreted hydrated minerals. The latter case implies high temperature and pressure 
+                    hydrated minerals. The latter case implies high temperature and pressure 
                     rock-water geochemistry as a driver of ocean composition. Currently, I'm 
                     investigating the origin of Europa's hydrocryosphere using geophysical and 
                     geochemical models.
