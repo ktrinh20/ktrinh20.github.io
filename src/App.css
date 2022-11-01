@@ -21,36 +21,28 @@
 .main-header {
   display: flex;
   flex-direction: row;
-  max-height: 30vh;
+  height: 150px;
   justify-content: center;
+  width: 100%;
 }
 
 .left {
-  flex-direction: column;
-  flex: 0 1 auto;
-  max-width: calc(20% - 10px);
-  align-items: flex-end;
-}
-
-.pic-holder {
-  height: 100%;
-  flex-direction: row;
-  align-content: flex-end;
-  padding: 5px 0;
+  margin-right: 10px;
+  margin-top: 5px;
+  display: flex;
 }
 
 #kevin-logo {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .right {
-  flex: 0 1 auto;
-  max-width: calc(80% - 10px);
+  margin-left: 10px;
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  justify-content: center;
 }
 
 .emphasize-text{
@@ -92,7 +84,7 @@ hr {
 
 #full-name-header {
   font-size: 48pt;
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 0;
   font-family: 'League Spartan', 'Open Sans ExtraBold', sans-serif;
 }
@@ -100,12 +92,21 @@ hr {
 #professional-title {
   font-size: 20pt;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0;
+  padding-left: 3px;
   font-family: 'League Spartan', 'Open Sans ExtraBold', sans-serif;
   color: #208AAE;
 }
 
 @media screen and (min-width: 961px) {
+  .main-header {
+    height: 150px;
+  }
+
+  #kevin-logo {
+    width: 100px;
+  }
+
   #top-hr {
     display: none;
   }
@@ -129,6 +130,13 @@ hr {
 }
 
 @media screen and (max-width: 960px) {
+  .main-header {
+    height: 100px;
+  }
+
+  #kevin-logo {
+    width: 60px;
+  }
 
   .main-container {
     margin-left: 10vw;

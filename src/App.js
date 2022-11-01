@@ -17,9 +17,7 @@ function App() {
 
         <div className="main-header">
           <div className="left">
-            <div className="pic-holder">
-              <img id="kevin-logo" src={KevinLogo}/>
-            </div>
+            <img id="kevin-logo" src={KevinLogo}/>
           </div>
           <div className="right">
             <h1 id="full-name-header">Kevin T. Trinh</h1>
