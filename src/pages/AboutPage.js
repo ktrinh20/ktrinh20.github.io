@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import ProfilePic from '../photos/portland-headlight.jpg';
+import ProfilePic from '../photos/AGU-headshot.png';
 import './AboutPage.css';
 
 function AboutPage() {
