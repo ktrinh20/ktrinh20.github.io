@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.74c086dd.chunk.css",
-    "main.js": "/static/js/main.3f2ed7e1.chunk.js",
-    "main.js.map": "/static/js/main.3f2ed7e1.chunk.js.map",
+    "main.js": "/static/js/main.6ea5ef02.chunk.js",
+    "main.js.map": "/static/js/main.6ea5ef02.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.44a80f3f.js",
     "runtime-main.js.map": "/static/js/runtime-main.44a80f3f.js.map",
     "static/js/2.bf91bf3c.chunk.js": "/static/js/2.bf91bf3c.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.74c086dd.chunk.css.map": "/static/css/main.74c086dd.chunk.css.map",
     "static/js/2.bf91bf3c.chunk.js.LICENSE.txt": "/static/js/2.bf91bf3c.chunk.js.LICENSE.txt",
+    "static/media/AGU-headshot.55111e8a.png": "/static/media/AGU-headshot.55111e8a.png",
     "static/media/Earth.24fe28c3.png": "/static/media/Earth.24fe28c3.png",
     "static/media/Europa-kevin-icon.6e938d81.png": "/static/media/Europa-kevin-icon.6e938d81.png",
     "static/media/GEMS-logo.d4762f94.png": "/static/media/GEMS-logo.d4762f94.png",
@@ -20,7 +21,6 @@
     "static/media/dynamo-mystery-2.ca992a5b.png": "/static/media/dynamo-mystery-2.ca992a5b.png",
     "static/media/ocean-evolution.23036966.png": "/static/media/ocean-evolution.23036966.png",
     "static/media/ocean-ice-shell-mystery.82b36b0d.png": "/static/media/ocean-ice-shell-mystery.82b36b0d.png",
-    "static/media/portland-headlight.9fe37325.jpg": "/static/media/portland-headlight.9fe37325.jpg",
     "static/media/sundial.4001dd7f.png": "/static/media/sundial.4001dd7f.png",
     "static/media/volcanism.caa9a4d3.png": "/static/media/volcanism.caa9a4d3.png",
     "static/media/wsycs.df90a1bc.png": "/static/media/wsycs.df90a1bc.png"
@@ -29,6 +29,6 @@
     "static/js/runtime-main.44a80f3f.js",
     "static/js/2.bf91bf3c.chunk.js",
     "static/css/main.74c086dd.chunk.css",
-    "static/js/main.3f2ed7e1.chunk.js"
+    "static/js/main.6ea5ef02.chunk.js"
   ]
 }
