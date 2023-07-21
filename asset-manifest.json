@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.9390a53b.chunk.css",
-    "main.js": "/static/js/main.74f3ee31.chunk.js",
-    "main.js.map": "/static/js/main.74f3ee31.chunk.js.map",
+    "main.js": "/static/js/main.4e11d31b.chunk.js",
+    "main.js.map": "/static/js/main.4e11d31b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.91a9bb1d.js",
     "runtime-main.js.map": "/static/js/runtime-main.91a9bb1d.js.map",
     "static/js/2.bf91bf3c.chunk.js": "/static/js/2.bf91bf3c.chunk.js",
@@ -17,6 +17,7 @@
     "static/media/Europa-kevin-icon.6e938d81.png": "/static/media/Europa-kevin-icon.6e938d81.png",
     "static/media/GEMS-logo.d4762f94.png": "/static/media/GEMS-logo.d4762f94.png",
     "static/media/SESE-logo.f9d44380.jpg": "/static/media/SESE-logo.f9d44380.jpg",
+    "static/media/android-chrome-512x512.d87547b2.png": "/static/media/android-chrome-512x512.d87547b2.png",
     "static/media/core-mystery.601fd375.png": "/static/media/core-mystery.601fd375.png",
     "static/media/dynamo-mystery-2.ca992a5b.png": "/static/media/dynamo-mystery-2.ca992a5b.png",
     "static/media/ocean-evolution.23036966.png": "/static/media/ocean-evolution.23036966.png",
@@ -29,6 +30,6 @@
     "static/js/runtime-main.91a9bb1d.js",
     "static/js/2.bf91bf3c.chunk.js",
     "static/css/main.9390a53b.chunk.css",
-    "static/js/main.74f3ee31.chunk.js"
+    "static/js/main.4e11d31b.chunk.js"
   ]
 }
