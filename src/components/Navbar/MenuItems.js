@@ -20,8 +20,13 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
+        title: 'Press',
+        url: '/press',
+        cName: 'nav-links'
+    },
+    {
         title: 'CV',
-        url: 'https://drive.google.com/file/d/1yPEUiLy8qIrNcUc4HHHbdzTzI41xdCuw/view?usp=sharing',
+        url: 'https://drive.google.com/file/d/18jXPmr5ih9FAD72XX5GrAomYb6LfLHTj/view?usp=sharing',
         cName: 'nav-links'
     },
 ]

@@ -1,0 +1,56 @@
+.publications-alignment {
+    align-items: start;
+}
+
+ol {
+    text-align: left;
+    list-style-position: outside;
+}
+
+.remove-bullet {
+    list-style-type: none;
+}
+
+@media screen and (min-width: 961px) {
+    ol li {
+        margin: 0 40px 10px 40px;
+        font-size: 12pt;
+    }
+
+    #google-scholar-text {
+        font-size: 12pt;
+        display: inline;
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .publications-header {
+        font-size: 18pt;
+        font-weight: bold;
+        align-self: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .body-text{
+        font-size: 10pt;
+        margin: 15px;
+      }
+
+    #google-scholar-text {
+        font-size: 10pt;
+        display: block;
+        text-align: center;
+        margin: 5px auto;
+    }
+
+    .publications-header {
+        font-size: 14pt;
+        font-weight: bold;
+        align-self: center;
+        margin-top: 3px;
+    }
+}

@@ -6,7 +6,10 @@ import ResearchPage from './pages/ResearchPage';
 import PublicationsPage from './pages/PublicationsPage';
 import OutreachPage from './pages/OutreachPage';
 import VolunteerPage from './pages/VolunteerPage';
+//import SciCommPage from './pages/SciCommPage';
+import PressPage from './pages/PressPage';
 import KevinLogo from './photos/Europa-kevin-icon.png';
+import MoonLogo from './photos/moon-logo.png';
 import './App.css';
 
 function App() {
@@ -17,7 +20,7 @@ function App() {
 
         <div className="main-header">
           <div className="left">
-            <img id="kevin-logo" src={KevinLogo}/>
+            <img id="kevin-logo" src={MoonLogo}/>
           </div>
           <div className="right">
             <h1 id="full-name-header">Kevin T. Trinh</h1>
@@ -34,8 +37,7 @@ function App() {
             <Route exact path="/research" component={ResearchPage} />
             <Route exact path="/publications" component={PublicationsPage}/>
             <Route exact path="/outreach" component={OutreachPage}/>
-            <Route exact path="/volunteer" component={VolunteerPage}/>
-            
+            <Route exact path="/press" component={PressPage}/>
           </Switch>
           <hr id="bottom-hr"/>
           <p id="footer-text">Website coded by me :)</p>

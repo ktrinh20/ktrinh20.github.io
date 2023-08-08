@@ -52,7 +52,7 @@
 
 .horizontal-flex {
   display: flex;
-  flex-direction: horizontal;
+  flex-direction: row;
 }
 
 .vertical-flex {

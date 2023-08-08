@@ -64,7 +64,7 @@ function OutreachPage() {
 
                 <div className={isWideScreen ? "horizontal-flex outreach-container" : "vertical-flex outreach-container"}>
                     <img className="outreach-pic" src={WSYCS}/>
-                    <p className="outreach-text"><strong>Why Should You Care Science (WSYCS) (2021)</strong><br/>
+                    <p className="outreach-text"><strong>Why Should You Care Science (WSYCS) (2021 - now)</strong><br/>
                     I created a STEAM (STEM + Art) outreach page on Instagram where each
                      post is a visual slideshow talking about STEM in plain-speak. Posts are generally created 
                      by different graduate students and postdocs in a variety of disciplines, but we all 

@@ -2,9 +2,9 @@ import React from 'react';
 import { useMediaQuery } from 'react-responsive';
 import WSYCSIG from '../photos/wsycs-ig.png';
 import WSYCSVolunteer from '../photos/wsycs-volunteer.png';
-import './WSYCSPage.css';
+import './SciCommPage.css';
 
-function WSYCSPage() {
+function SciCommPage() {
 
     const isWideScreen = useMediaQuery({query: '(min-width: 961px)'});
     const isNarrowScreen = useMediaQuery({query: '(max-width: 960px)'});
@@ -24,11 +24,11 @@ function WSYCSPage() {
 
                 <div className={isWideScreen ? "horizontal-flex wsycs-container" : "vertical-flex wsycs-container"}>
                     <a href="https://www.instagram.com/whyshouldyoucarescience"><img className="wsycs-pic" src={WSYCSIG}/></a>
-                    <a href="volunteer"><img className="wsycs-pic" src={WSYCSVolunteer}/></a>
+                    <a href="https://ktrinh20.github.io/#/volunteer/"><img className="wsycs-pic" src={WSYCSVolunteer}/></a>
                 </div>
             </div>
         </div>
     )
 }
 
-export default WSYCSPage;
+export default SciCommPage;

@@ -17,8 +17,8 @@ function ResearchPage() {
             <div className="vertical-flex">
                 <div id="research-summary-container">
                     <p className="research-text"><strong>I study the formation, evolution, and potential habitability
-                    of icy moons.</strong> Currently, I write code to simulate the structural, 
-                    thermal, and magnetic history of Jupiter’s moon, Europa, while exploring the geochemical 
+                    of icy moons.</strong> Conveniently, the processes I model apply to other rocky bodies as well. 
+                    Currently, I write code to simulate the structural, thermal, and magnetic history of Jupiter’s moon, Europa, while exploring the geochemical 
                     consequences of my models. Later, I will expand my research scope to other moons in the outer solar system.
                     <br/><br/>
                     Below are some questions that I’m investigating for my primary PhD research, funded by
@@ -43,15 +43,13 @@ function ResearchPage() {
 
                 <div className={isWideScreen ? "horizontal-flex research-container" : "vertical-flex research-container"}>
                     <img className="research-pic" src={ResearchPic2}/>
-                    <p className="research-text"><strong>Age of Europa's metallic core</strong><br/>
-                    Embedded deep within Europa is a metallic core whose age and composition are 
-                    unknown. Importantly, metallic core formation may generate heat that further 
-                    dehydrates Europa's silicate (rocky) mantle and release a late pulse of fluid 
-                    into the subsurface ocean. Some recent models assume that Europa formed its 
-                    metallic core during or immediately after accretion, but my work (in prep.) 
-                    shows that rock-metal differentiation may begin billions of years after accretion, 
-                    opening up the exciting possibility that Europa's metallic core formation may still 
-                    be ongoing.
+                    <p className="research-text"><strong>Metallic core formation at Europa</strong><br/>
+                    For over 20 years, many scientists assume that Europa formed a metallic core during or shortly 
+                    after accretion. However, my work (Trinh et al., 2023) shows that rock-metal differentiation may begin 
+                    billions of years after accretion, opening up the exciting possibility that Europa's 
+                    metallic core formation may still be ongoing (if it happened at all). Metallic core formation 
+                    is important because this process extracts redox-sensitive species from the rocky mantle, releases 
+                    a heat pulse, and establishes lower bounds on peak internal temperature in Europa's history. 
                     </p>
                 </div>
 
@@ -82,8 +80,8 @@ function ResearchPage() {
                     <img className="research-pic" src={ResearchPic5}/>
                     <p className="research-text"><strong>Ocean composition and chemistry</strong><br/>
                     Life as we know it requires three things: water (biological solvent), nutrients (e.g., CHNOPS elements),
-                    and energy (i.e., disequilibria). There is strong evidence for the former, but the remaining
-                    conditions are met. Rock-water reactions and delivery of oxidants across the ice shell may 
+                    and energy (i.e., disequilibria). There is strong evidence for the former, but it is unclear whether 
+                    the remaining two conditions are met. Rock-water reactions and delivery of oxidants across the ice shell may 
                     help sustain chemical disequilibria in Europa's ocean. In addition to thermal modeling, I use
                     computational geochemical software (EQ3/6 and CHNOSZ) to model how Europa's ocean composition could
                     change over time.
