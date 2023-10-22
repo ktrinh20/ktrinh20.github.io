@@ -24,7 +24,7 @@ function App() {
           </div>
           <div className="right">
             <h1 id="full-name-header">Kevin T. Trinh</h1>
-            <h2 id="professional-title">PhD Candidate in Planetary Science</h2>
+            <h2 id="professional-title">PhD Candidate + Planetary Scientist</h2>
           </div>
         </div>
 

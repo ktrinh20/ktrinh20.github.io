@@ -1,27 +1,123 @@
 #research-summary-container {
     background: rgba(32, 138, 174, 0.1);
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .research-container {
     align-content: start;
 }
 
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark background */
+  z-index: 1;
+  display: block; /* Initially hidden */
+  cursor: pointer; /* Make the overlay clickable */
+}
+
+.tile-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Adjust the gap between tiles as needed */
+}
+  
+.tile {
+  width: calc(33.33% - 20px); /* For desktop view, 3 tiles in a row with a 20px gap */
+  background-color: #ffffff;
+	border-radius: 8px;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px; /* Space between rows */
+}
+  
+.tile img {
+	max-width: 100%;
+  height: auto;
+}
+
+.popup.active {
+  display: block; /* Show the pop-up */
+  /* Your other styles for the pop-up */
+}
+  
+.popup {
+	/* Your other styles here */
+	display: none;
+	position: fixed;
+	top: 50%; /* Center vertically */
+	left: 50%; /* Center horizontally */
+	transform: translate(-50%, -50%); /* Center the popup */
+	background-color: white; /* White background for the pop-up */
+	border-radius: 8px; /* Rounded corners */
+	padding: 20px;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	min-width: 60vw;
+	max-width: 75vw;
+	max-height: 80vh; /* Adjust the maximum height as needed */
+	overflow-y: auto;
+}
+  
+.popup h2 {
+	font-size: 24px;
+}
+
+.popup p {
+	font-size: 16px;
+}
+
+.popup-image-container {
+  max-width: 100%;
+  max-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: contain;
+}
+
+.popup-image-container img {
+  max-width: 80%; /* Set a maximum width for the image */
+  max-height: 80%; /* Set a maximum height for the image */
+  object-fit: contain; /* Maintain aspect ratio and fit within the container */
+}
+
+/* Styling for the rest of the page when the pop-up is active */
+body.popup-active {
+  overflow: hidden; /* Prevent scrolling in the background */
+}
+
+/* Apply the overlay and body class when the pop-up is active */
+.popup.active + .overlay {
+  display: block; /* Show the overlay */
+}
+
+.popup.active + .overlay + body {
+  overflow: hidden; /* Prevent scrolling in the background */
+}
+
+
 @media screen and (min-width: 801px) {
 
-    .research-text {
-        font-size: 12pt;
-        text-align: left;
-        padding: 20px;
-        margin-top: 0;
-    }
+	.research-text {
+			font-size: 12pt;
+			text-align: left;
+			padding: 20px;
+			margin-top: 0;
+	}
 
-    .research-pic {
-        width: 200px;
-        height: 200px;
-        margin: 10px;
-    }
+	.research-pic {
+			width: 200px;
+			height: 200px;
+			margin: 10px;
+	}
 }
 
 @media screen and (max-width: 800px) {
@@ -39,4 +135,8 @@
         padding: 10px;
         margin-top: 0;
       }
+
+    .tile {
+        width: 100%; /* For mobile view, one tile in a row */
+    }
 }
