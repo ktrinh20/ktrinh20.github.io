@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import ResearchPic1 from '../photos/EuropaInteriorCartoon.png';
-import ResearchPic2 from '../photos/Ganymede-moon.png';
-import ResearchPic3 from '../photos/Europa-Juno.png';
-import ResearchPic4 from '../photos/Io-moon.png';
-import ResearchPic5 from '../photos/microbe-emoji.png';
-import ResearchPic6 from '../photos/Europa-Clipper-Spacecraft.png';
+import ResearchPic2 from '../photos/Ganymede-art.png';
+import ResearchPic3 from '../photos/Europa-Art.png';
+import ResearchPic4 from '../photos/Io-Art-Paintbrush.png';
+import ResearchPic5 from '../photos/microbe.png';
+import ResearchPic6 from '../photos/Spacecraft-art.png';
 import './ResearchPage.css';
 
 function ResearchPage() {
@@ -18,7 +18,7 @@ function ResearchPage() {
     const topics = [
       { 
         id: 1, 
-        title: (<p>&#x1F315; INTERNAL STRUCTURE AND EVOLUTION</p>), 
+        title: (<div>&#x1F315; INTERNAL STRUCTURE AND EVOLUTION</div>), 
         imageSrc: ResearchPic1, 
         content: (
             <div className='research-text'>
@@ -46,24 +46,7 @@ function ResearchPage() {
     },
       { 
         id: 2, 
-        title: (<p>&#x1F9F2; ICY MOON DYNAMOS</p>),
-        imageSrc: ResearchPic2, 
-        content: (
-            <div className='research-text'>
-                <p>Ganymede is the only moon in our solar system with an 
-                    active dynamo—a magnetic field generator, driven by vigorous 
-                    convection of conductive material (e.g., Bland et al., 2008). Strangely, 
-                    the neighboring moons Europa and Callisto do not have a dynamo today. The 
-                    prospect of an ancient dynamo at Europa and Callisto depends on the thermochemical 
-                    evolution of their metallic cores, if they have such cores at all. My goal is to 
-                    learn whether Ganymede’s modern dynamo may help us understand the intrinsic 
-                    magnetic field histories of all the icy Galilean satellites.</p>
-            </div>
-        )
-    },
-      { 
-        id: 3, 
-        title: (<p>&#x1F30A; ORIGIN OF EUROPA'S OCEAN</p>),
+        title: (<div>&#x1F30A; ORIGIN OF EUROPA'S OCEAN</div>),
         imageSrc: ResearchPic3,
 				content: (
 					<div className='research-text'>
@@ -87,29 +70,47 @@ function ResearchPage() {
 					</div>
 				)
     },
+    { 
+        id: 3, 
+        title: (<div>&#x1F9F2; ICY MOON DYNAMOS</div>),
+        imageSrc: ResearchPic2, 
+        content: (
+            <div className='research-text'>
+                <p>Ganymede is the only moon in our solar system with an 
+                    active dynamo—a magnetic field generator, driven by vigorous 
+                    convection of conductive material (e.g., Bland et al., 2008). Strangely, 
+                    the neighboring moons Europa and Callisto do not have a dynamo today. The 
+                    prospect of an ancient dynamo at Europa and Callisto depends on the thermochemical 
+                    evolution of their metallic cores, if they have such cores at all. My goal is to 
+                    learn whether Ganymede’s modern dynamo may help us understand the intrinsic 
+                    magnetic field histories of all the icy Galilean satellites.</p>
+            </div>
+        )
+    },
 			{ 
-					id: 4, 
-					title: (<p>&#x1F30B; ANCIENT OCEAN AT IO?</p>), 
-					content: (
+				id: 4, 
+				title: (<div>&#x1F30B; ANCIENT OCEAN AT IO?</div>), 
+				content: (
 						<div className='research-text'>
-							<p>The most volcanically active place in our solar system is Jupiter’s moon, Io. 
-								However, we do not know whether Io was born as an ice-free body. Previous studies 
-								explored the idea of Io losing its initial water inventory during the moon’s 
-								evolution (e.g., Bierson and Steinbrügge, 2021). My thermal and compositional 
-								evolution models are tools for understanding the diversity of the Galilean moons.</p>
-								<br/>
-								<ol reversed>
-									<li>CJ Bierson, JJ Fortney, <strong>KT Trinh</strong>, MA Kreslavsky (2023). The 
-									Effect of Jupiter’s Early Luminosity on the Galilean Satellites. <i>PSJ</i> 4 (7), 122.
-</li>
-								</ol>
+								<p>The most volcanically active place in our solar system is Jupiter’s moon, Io. 
+										However, we do not know whether Io was born as an ice-free body. Previous studies 
+										explored the idea of Io losing its initial water inventory during the moon’s 
+										evolution (e.g., Bierson and Steinbrügge, 2021). My thermal and compositional 
+										evolution models are tools for understanding the diversity of the Galilean moons.</p>
+										<br/>
+										<ol reversed>
+												<li>
+														CJ Bierson, JJ Fortney, <strong>KT Trinh</strong>, MA Kreslavsky (2023). The 
+														Effect of Jupiter’s Early Luminosity on the Galilean Satellites. <i>PSJ</i> 4 (7), 122.
+												</li>
+										</ol>
 						</div>
-					),
-					imageSrc: ResearchPic4,
-			},
+				),
+				imageSrc: ResearchPic4,
+		},
 			{ 
 				id: 5, 
-				title: (<p>&#x1F9A0; DYNAMIC HABITABILITY</p>),
+				title: (<div>&#x1F9A0; CHEMOSYNTHESIS AND HABITABILITY</div>),
 				imageSrc: ResearchPic5,
 				content: (
 					<div className='research-text'>
@@ -119,8 +120,8 @@ function ResearchPage() {
 						criteria, but the energy and nutrient budget is less clear. One way to think of 
 						habitability is through metabolisms—chemical reactions that life uses to get energy. 
 						In the absence of light, life in Europa’s ocean must rely on chemosynthesis 
-						(e.g., methanogenesis). My models of Europa’s long-term evolution provides ocean c
-						ompositions, which can be used to compute the Gibbs free energy associated with 
+						(e.g., methanogenesis). My models of Europa’s long-term evolution provides ocean 
+						compositions, which can be used to compute the Gibbs free energy associated with 
 						various metabolisms.
 						</p>
 					</div>
@@ -128,7 +129,7 @@ function ResearchPage() {
 		},
 			{ 
 				id: 6, 
-				title: (<p>&#x1F680; NASA SPACECRAFT MISSIONS</p>),
+				title: (<div>&#x1F680; NASA SPACECRAFT MISSIONS</div>),
 				imageSrc: ResearchPic6,
 				content: (
 					<div className='research-text'>

@@ -35,6 +35,8 @@
   padding: 20px;
   text-align: center;
   margin-bottom: 20px; /* Space between rows */
+  font-size: 14px;
+  font-weight: 600;
 }
   
 .tile img {
@@ -45,48 +47,6 @@
 .popup.active {
   display: block; /* Show the pop-up */
   /* Your other styles for the pop-up */
-}
-  
-.popup {
-	/* Your other styles here */
-	display: none;
-	position: fixed;
-	top: 50%; /* Center vertically */
-	left: 50%; /* Center horizontally */
-	transform: translate(-50%, -50%); /* Center the popup */
-	background-color: white; /* White background for the pop-up */
-	border-radius: 8px; /* Rounded corners */
-	padding: 20px;
-	z-index: 1;
-	display: flex;
-	flex-direction: column;
-	min-width: 60vw;
-	max-width: 75vw;
-	max-height: 80vh; /* Adjust the maximum height as needed */
-	overflow-y: auto;
-}
-  
-.popup h2 {
-	font-size: 24px;
-}
-
-.popup p {
-	font-size: 16px;
-}
-
-.popup-image-container {
-  max-width: 100%;
-  max-height: auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: contain;
-}
-
-.popup-image-container img {
-  max-width: 80%; /* Set a maximum width for the image */
-  max-height: 80%; /* Set a maximum height for the image */
-  object-fit: contain; /* Maintain aspect ratio and fit within the container */
 }
 
 /* Styling for the rest of the page when the pop-up is active */
@@ -118,6 +78,60 @@ body.popup-active {
 			height: 200px;
 			margin: 10px;
 	}
+
+  .tile:hover {
+    transform: scale(1.05);          /* Makes the tile slightly bigger */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.6); /* Increases the shadow */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effect */
+  }
+
+  .popup {
+    /* Your other styles here */
+    position: fixed;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the popup */
+    background-color: white; /* White background for the pop-up */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 50vw;
+    max-width: 70vw;
+    max-height: 80vh; /* Adjust the maximum height as needed */
+    overflow-y: auto;
+  }
+    
+  .popup h2 {
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+    align-self: center;
+  }
+  
+  .popup p {
+    font-size: 14px;
+  }
+  
+  .popup ol li {
+    font-size: 14px;
+  }
+  
+  .popup-image-container {
+    max-width: 100%;
+    max-height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: contain;
+  }
+  
+  .popup-image-container img {
+    max-width: 60%; /* Set a maximum width for the image */
+    max-height: 60%; /* Set a maximum height for the image */
+    margin-top: 15px;
+    object-fit: contain; /* Maintain aspect ratio and fit within the container */
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -138,5 +152,53 @@ body.popup-active {
 
     .tile {
         width: 100%; /* For mobile view, one tile in a row */
+    }
+
+    .popup {
+      /* Your other styles here */
+      display: flex;
+      position: fixed;
+      top: 50%; /* Center vertically */
+      left: 50%; /* Center horizontally */
+      transform: translate(-50%, -50%); /* Center the popup */
+      background-color: white; /* White background for the pop-up */
+      border-radius: 8px; /* Rounded corners */
+      padding: 20px;
+      z-index: 1;
+      flex-direction: column;
+      min-width: 50vw;
+      max-width: 70vw;
+      max-height: 80vh; /* Adjust the maximum height as needed */
+      overflow-y: auto;
+    }
+      
+    .popup h2 {
+      font-size: 24px;
+      font-family: 'Open Sans', sans-serif;
+      align-self: center;
+    }
+    
+    .popup p {
+      font-size: 14px;
+    }
+    
+    .popup ol li {
+      font-size: 14px;
+    }
+    
+    .popup-image-container {
+      max-width: 100%;
+      max-height: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: contain;
+    }
+    
+    .popup-image-container img {
+      max-width: 60%; /* Set a maximum width for the image */
+      max-height: 60%; /* Set a maximum height for the image */
+      margin-top: 15px;
+      object-fit: contain; /* Maintain aspect ratio and fit within the container */
     }
 }

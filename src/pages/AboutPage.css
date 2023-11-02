@@ -33,6 +33,11 @@
         margin: 6px 12px 6px 12px;
     }
 
+    .logo-icon:hover {
+        transform: scale(1.5);          /* Makes the tile slightly bigger */
+        transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition effect */
+    }
+
     .align-items-center {
         align-items: center;
     }
