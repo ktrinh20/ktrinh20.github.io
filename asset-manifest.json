@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.913db59b.chunk.css",
-    "main.js": "/static/js/main.cbb3db55.chunk.js",
-    "main.js.map": "/static/js/main.cbb3db55.chunk.js.map",
+    "main.js": "/static/js/main.2ae7152c.chunk.js",
+    "main.js.map": "/static/js/main.2ae7152c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f0001985.js",
     "runtime-main.js.map": "/static/js/runtime-main.f0001985.js.map",
     "static/js/2.0e5f5fae.chunk.js": "/static/js/2.0e5f5fae.chunk.js",
@@ -12,6 +12,7 @@
     "index.html": "/index.html",
     "static/css/main.913db59b.chunk.css.map": "/static/css/main.913db59b.chunk.css.map",
     "static/js/2.0e5f5fae.chunk.js.LICENSE.txt": "/static/js/2.0e5f5fae.chunk.js.LICENSE.txt",
+    "static/media/AGU-headshot.55111e8a.png": "/static/media/AGU-headshot.55111e8a.png",
     "static/media/Earth.24fe28c3.png": "/static/media/Earth.24fe28c3.png",
     "static/media/Europa-Art.80ec4dd0.png": "/static/media/Europa-Art.80ec4dd0.png",
     "static/media/Europa-kevin-icon.6e938d81.png": "/static/media/Europa-kevin-icon.6e938d81.png",
@@ -26,13 +27,12 @@
     "static/media/moon-logo.3fac61c7.png": "/static/media/moon-logo.3fac61c7.png",
     "static/media/notion-logo.7aa264a8.png": "/static/media/notion-logo.7aa264a8.png",
     "static/media/sundial.4001dd7f.png": "/static/media/sundial.4001dd7f.png",
-    "static/media/test1.5cfc0296.jpg": "/static/media/test1.5cfc0296.jpg",
     "static/media/wsycs.1e6b0360.png": "/static/media/wsycs.1e6b0360.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f0001985.js",
     "static/js/2.0e5f5fae.chunk.js",
     "static/css/main.913db59b.chunk.css",
-    "static/js/main.cbb3db55.chunk.js"
+    "static/js/main.2ae7152c.chunk.js"
   ]
 }
