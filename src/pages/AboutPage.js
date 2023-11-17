@@ -1,6 +1,6 @@
 import React from 'react';
 import { useMediaQuery } from 'react-responsive';
-import ProfilePic from '../photos/AGU-headshot.png';
+import ProfilePic from '../photos/test1.jpg';
 import TwitterLogo from '../photos/twitter-logo.png';
 import GithubLogo from '../photos/github-logo.png';
 import GoogleScholarLogo from '../photos/google-scholar-logo.png';
