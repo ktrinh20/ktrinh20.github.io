@@ -24,7 +24,7 @@ function AboutPage() {
                         <a target="_blank" href='https://picturesque-freezer-4ae.notion.site/KEVIN-T-TRINH-002e7f267b2442b4b6d20dcf61004fe9'><img className='logo-icon' src={NotionLogo}/></a>
                     </div>
                 </div>
-                <p className="about-text">Sushi. I am a PhD candidate at the Arizona State University in the School of 
+                <p className="about-text">I am a PhD candidate at the Arizona State University in the School of 
                 Earth and Space Exploration, advised by <a href="https://josephgorourke.com/">Dr. Joseph G. O’Rourke</a>. I received my BA in Physics from 
                 Bowdoin College in 2019 as a first-generation student. Also, I am a <strong>NASA FINESST</strong> future investigator 
                 (FI) studying the internal differentiation, evolution, and potential habitability of Jupiter’s moon, 
