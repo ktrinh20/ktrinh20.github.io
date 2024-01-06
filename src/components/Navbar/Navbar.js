@@ -20,14 +20,14 @@ class Navbar extends Component {
                     {MenuItems.map((item, index) => {
                         return (
                             <li key={index}>
-                                {item.title == 'CV' && 
-                                    <a className={item.cName} exact href={item.url}>
+                                {(item.title === 'CV' || item.title === 'Graphics') ? 
+                                    <a className={item.cName} href={item.url} target="_blank" rel="noopener noreferrer">
                                         {item.title}
-                                    </a>}
-                                {item.title != 'CV' &&
+                                    </a> :
                                     <Link className={item.cName} to={item.url}>
                                         {item.title}
-                                    </Link>}
+                                    </Link>
+                                }
                             </li>
                         )
                     })}

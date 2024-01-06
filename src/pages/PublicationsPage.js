@@ -32,22 +32,22 @@ function PublicationsPage() {
                 <p><b>*</b> Indicates that the author-list is sorted alphabetically, except for the first author.</p><br/>
                 <ol reversed className="body-text">
                     <li>
-                        <b>KT Trinh</b>, CJ Bierson, JG O’Rourke, EL Shock (expected 2023). Compositional  
+                        <b>KT Trinh</b>, CJ Bierson, JG O’Rourke, EL Shock (2023). Compositional  
                         Evolution of Europa's Fe-FeS Alloys from Accretion to Metal Melting. 
-                        AGU Fall meeting. Format tbd.
+                        AGU Fall meeting. Poster.
                     </li>
                     <li>
-                        A Steckel, ..., <b>*KT Trinh</b> (21 total authors) (expected 2023). The Science Case for 
-                        Nautilus: A Multi-flyby Mission Concept to Triton. AGU Fall meeting. Format tbd.
+                        A Steckel, ..., <b>*KT Trinh</b> (21 total authors) (2023). The Science Case for 
+                        Nautilus: A Multi-flyby Mission Concept to Triton. AGU Fall meeting. Poster.
                     </li>
                     <li>
-                        T Horvath, ..., <b>*KT Trinh</b> (21 total authors) (expected 2023). The Architecture 
-                        of Nautilus: A Multi-flyby Mission Concept to Triton. AGU Fall meeting. Format tbd.
+                        T Horvath, ..., <b>*KT Trinh</b> (21 total authors) (2023). The Architecture 
+                        of Nautilus: A Multi-flyby Mission Concept to Triton. AGU Fall meeting. Poster.
                     </li>
                     <li>
                         G Steinbrügge, ... <b>KT Trinh</b> (6th out of 8+ authors), ... and the
-                        Europa Clipper Geodesy Team (expected 2023). Geodetic Investigations of the Europa 
-                        Clipper Mission. AGU Fall meeting. Format tbd.
+                        Europa Clipper Geodesy Team (2023). Geodetic Investigations of the Europa 
+                        Clipper Mission. AGU Fall meeting. Poster.
                     </li>
                     <li>
                         CJ Bierson, JJ Fortney, <b>KT Trinh</b>, M Kreslavsky (2023). The Effect of 

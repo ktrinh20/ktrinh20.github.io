@@ -14,8 +14,8 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(6, auto);
-    grid-gap: 5vw;
+    grid-template-columns: repeat(7, auto);
+    grid-gap: 4vw;
     list-style: none;
     text-align: center;
     width: 90vw;
