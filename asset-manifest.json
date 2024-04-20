@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.e5f6b84f.chunk.css",
-    "main.js": "/static/js/main.a1860925.chunk.js",
-    "main.js.map": "/static/js/main.a1860925.chunk.js.map",
+    "main.js": "/static/js/main.7a19ee76.chunk.js",
+    "main.js.map": "/static/js/main.7a19ee76.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f0001985.js",
     "runtime-main.js.map": "/static/js/runtime-main.f0001985.js.map",
     "static/js/2.0e5f5fae.chunk.js": "/static/js/2.0e5f5fae.chunk.js",
@@ -15,7 +15,6 @@
     "static/media/DBG_4.c00c3ed5.jpg": "/static/media/DBG_4.c00c3ed5.jpg",
     "static/media/Earth.24fe28c3.png": "/static/media/Earth.24fe28c3.png",
     "static/media/Europa-Art.80ec4dd0.png": "/static/media/Europa-Art.80ec4dd0.png",
-    "static/media/Europa-kevin-icon.6e938d81.png": "/static/media/Europa-kevin-icon.6e938d81.png",
     "static/media/EuropaInteriorCartoon.9fbdb6b5.png": "/static/media/EuropaInteriorCartoon.9fbdb6b5.png",
     "static/media/GEMS-logo.d4762f94.png": "/static/media/GEMS-logo.d4762f94.png",
     "static/media/Ganymede-art.c8b52601.png": "/static/media/Ganymede-art.c8b52601.png",
@@ -25,6 +24,7 @@
     "static/media/google-scholar-logo.f717789c.png": "/static/media/google-scholar-logo.f717789c.png",
     "static/media/microbe.0aeb2e40.png": "/static/media/microbe.0aeb2e40.png",
     "static/media/moon-logo.3fac61c7.png": "/static/media/moon-logo.3fac61c7.png",
+    "static/media/moon-pie-slice.88aede43.png": "/static/media/moon-pie-slice.88aede43.png",
     "static/media/notion-logo.7aa264a8.png": "/static/media/notion-logo.7aa264a8.png",
     "static/media/sundial.4001dd7f.png": "/static/media/sundial.4001dd7f.png",
     "static/media/wsycs.1e6b0360.png": "/static/media/wsycs.1e6b0360.png"
@@ -33,6 +33,6 @@
     "static/js/runtime-main.f0001985.js",
     "static/js/2.0e5f5fae.chunk.js",
     "static/css/main.e5f6b84f.chunk.css",
-    "static/js/main.a1860925.chunk.js"
+    "static/js/main.7a19ee76.chunk.js"
   ]
 }
