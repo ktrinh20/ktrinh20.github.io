@@ -8,7 +8,7 @@ import OutreachPage from './pages/OutreachPage';
 import VolunteerPage from './pages/VolunteerPage';
 //import SciCommPage from './pages/SciCommPage';
 import PressPage from './pages/PressPage';
-import KevinLogo from './photos/Europa-kevin-icon.png';
+import KevinLogo from './photos/moon-pie-slice.png';
 import MoonLogo from './photos/moon-logo.png';
 import './App.css';
 

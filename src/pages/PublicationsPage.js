@@ -15,7 +15,16 @@ function PublicationsPage() {
                 </p>
 
                 <p className="publications-header">Publications</p>
+                <p><b>*</b> Indicates that the author-list is sorted alphabetically, except for the first author.</p><br/>
                 <ol reversed className="body-text">
+                    <li>
+                        <b>KT Trinh</b>, CJ Bierson, JG O’Rourke (in prep.). Small Metal Cores may Prevent Dynamo 
+                        Activity at Europa.
+                    </li>
+                    <li>
+                        AV Steckel, ..., <b>*KT Trinh</b> (21 total authors) (in prep.). The Science Case for 
+                        Nautilus: A Multi-flyby Mission Concept to Triton. 
+                    </li>
                     <li>
                         CJ Bierson, JJ Fortney, <b>KT Trinh</b> and M Kreslavsky (2023). Jupiter's Early Luminosity May Have 
                         Driven Off Io's Initial Water Inventory. <i>Planetary Science Journal</i>. <a href='https://iopscience.iop.org/article/10.3847/PSJ/ace2c7'>Link</a>
@@ -29,7 +38,6 @@ function PublicationsPage() {
                 <br/>
 
                 <p className="publications-header">Conference abstracts</p>
-                <p><b>*</b> Indicates that the author-list is sorted alphabetically, except for the first author.</p><br/>
                 <ol reversed className="body-text">
                     <li>
                         <b>KT Trinh</b>, CJ Bierson, JG O’Rourke, EL Shock (2023). Compositional  
@@ -37,7 +45,7 @@ function PublicationsPage() {
                         AGU Fall meeting. Poster.
                     </li>
                     <li>
-                        A Steckel, ..., <b>*KT Trinh</b> (21 total authors) (2023). The Science Case for 
+                        AV Steckel, ..., <b>*KT Trinh</b> (21 total authors) (2023). The Science Case for 
                         Nautilus: A Multi-flyby Mission Concept to Triton. AGU Fall meeting. Poster.
                     </li>
                     <li>
