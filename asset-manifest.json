@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fe83af0.chunk.css",
-    "main.js": "/static/js/main.14896c4f.chunk.js",
-    "main.js.map": "/static/js/main.14896c4f.chunk.js.map",
+    "main.css": "/static/css/main.04041029.chunk.css",
+    "main.js": "/static/js/main.6408ff1d.chunk.js",
+    "main.js.map": "/static/js/main.6408ff1d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f0001985.js",
     "runtime-main.js.map": "/static/js/runtime-main.f0001985.js.map",
     "static/js/2.0e5f5fae.chunk.js": "/static/js/2.0e5f5fae.chunk.js",
@@ -10,29 +10,28 @@
     "static/js/3.3be65d4e.chunk.js": "/static/js/3.3be65d4e.chunk.js",
     "static/js/3.3be65d4e.chunk.js.map": "/static/js/3.3be65d4e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.2fe83af0.chunk.css.map": "/static/css/main.2fe83af0.chunk.css.map",
+    "static/css/main.04041029.chunk.css.map": "/static/css/main.04041029.chunk.css.map",
     "static/js/2.0e5f5fae.chunk.js.LICENSE.txt": "/static/js/2.0e5f5fae.chunk.js.LICENSE.txt",
+    "static/media/Asset 11.897673aa.png": "/static/media/Asset 11.897673aa.png",
+    "static/media/Asset 12.72f518bf.png": "/static/media/Asset 12.72f518bf.png",
+    "static/media/Asset 14.cf4e47da.png": "/static/media/Asset 14.cf4e47da.png",
+    "static/media/Asset 9.fd44788e.png": "/static/media/Asset 9.fd44788e.png",
     "static/media/DBG_4.c00c3ed5.jpg": "/static/media/DBG_4.c00c3ed5.jpg",
-    "static/media/Dynamo.8b130798.png": "/static/media/Dynamo.8b130798.png",
     "static/media/Earth.24fe28c3.png": "/static/media/Earth.24fe28c3.png",
-    "static/media/Europa-Clipper-Spacecraft-Only.8dfc6494.png": "/static/media/Europa-Clipper-Spacecraft-Only.8dfc6494.png",
     "static/media/GEMS-logo.d4762f94.png": "/static/media/GEMS-logo.d4762f94.png",
     "static/media/SESE-logo.f9d44380.jpg": "/static/media/SESE-logo.f9d44380.jpg",
-    "static/media/Silicate dehydration.7cf4fd7d.png": "/static/media/Silicate dehydration.7cf4fd7d.png",
     "static/media/github-logo.4bb497e5.png": "/static/media/github-logo.4bb497e5.png",
     "static/media/google-scholar-logo.f717789c.png": "/static/media/google-scholar-logo.f717789c.png",
-    "static/media/metallic core formation.88aede43.png": "/static/media/metallic core formation.88aede43.png",
     "static/media/moon-logo.3fac61c7.png": "/static/media/moon-logo.3fac61c7.png",
     "static/media/moon-pie-slice.88aede43.png": "/static/media/moon-pie-slice.88aede43.png",
     "static/media/notion-logo.7aa264a8.png": "/static/media/notion-logo.7aa264a8.png",
-    "static/media/ocean-evolution.23036966.png": "/static/media/ocean-evolution.23036966.png",
     "static/media/sundial.4001dd7f.png": "/static/media/sundial.4001dd7f.png",
     "static/media/wsycs.1e6b0360.png": "/static/media/wsycs.1e6b0360.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f0001985.js",
     "static/js/2.0e5f5fae.chunk.js",
-    "static/css/main.2fe83af0.chunk.css",
-    "static/js/main.14896c4f.chunk.js"
+    "static/css/main.04041029.chunk.css",
+    "static/js/main.6408ff1d.chunk.js"
   ]
 }
