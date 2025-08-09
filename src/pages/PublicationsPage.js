@@ -21,6 +21,8 @@ function PublicationsPage() {
                     <li>
                         <b>KT Trinh</b>, E Trembath-Reichert, EL Shock (in prep.). Metamorphism May Power Methanogenesis at Europa.
                     </li>
+                    
+                    <br/>
                     <li>
                         <b>KT Trinh</b>, CJ Bierson, JG O’Rourke (2024). A Critical Core Size for Dynamo Action at 
                         the Galilean Satellites. <i>Geophysical Research Letters</i>. <a href='https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL110680'>Link</a>
@@ -39,6 +41,8 @@ function PublicationsPage() {
                         AV Steckel, ..., <b>*KT Trinh</b> (21 total authors) (in prep.). The Science Case for 
                         Nautilus: A Multi-flyby Mission Concept to Triton. 
                     </li>
+
+                    <br/>
                     <li>
                         LJ Tilke, <b>KT Trinh</b>, JG O'Rourke (submitted). A Modern Dynamo as a Consequence 
                         of Triton's Capture at Neptune.
