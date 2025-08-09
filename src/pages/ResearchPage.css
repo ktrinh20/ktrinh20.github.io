@@ -28,7 +28,7 @@
 }
   
 .tile {
-  width: calc(33.33% - 20px); /* For desktop view, 3 tiles in a row with a 20px gap */
+  width: calc(25% - 20px); /* For desktop view, 3 tiles in a row with a 20px gap */
   background-color: #ffffff;
 	border-radius: 8px;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5); /* Shadow effect */
@@ -40,7 +40,7 @@
 }
   
 .tile img {
-	max-width: 100%;
+	max-width: 200px;
   height: auto;
 }
 
@@ -114,6 +114,12 @@ body.popup-active {
     margin: 0 20px 10px 20px;
   }
 
+  .popup ul li {
+    font-size: 14px;
+    margin: 0 10px 5px 20px;
+    font-style: italic;
+  }
+
   .popup-image-container {
     max-width: 100%;
     max-height: auto;
@@ -179,6 +185,11 @@ body.popup-active {
     }
     
     .popup ol li {
+      font-size: 12px;
+      margin: 0 20px 10px 20px;
+    }
+
+    .popup ul li {
       font-size: 12px;
       margin: 0 20px 10px 20px;
     }

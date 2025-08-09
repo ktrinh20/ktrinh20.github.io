@@ -1,11 +1,9 @@
 import React, { useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
-import ResearchPic1 from '../photos/EuropaInteriorCartoon.png';
-import ResearchPic2 from '../photos/Ganymede-art.png';
-import ResearchPic3 from '../photos/Europa-Art.png';
-import ResearchPic4 from '../photos/Io-Art-Paintbrush.png';
-import ResearchPic5 from '../photos/microbe.png';
-import ResearchPic6 from '../photos/Spacecraft-art.png';
+import ResearchPic1 from '../photos/Asset 9.png';
+import ResearchPic2 from '../photos/Asset 14.png';
+import ResearchPic3 from '../photos/Asset 11.png';
+import ResearchPic4 from '../photos/Asset 12.png';
 import './ResearchPage.css';
 
 function ResearchPage() {
@@ -18,25 +16,31 @@ function ResearchPage() {
     const topics = [
       { 
         id: 1, 
-        title: (<div>&#x1F315; INTERNAL STRUCTURE AND EVOLUTION</div>), 
+        title: (<div>Icy Moon Interiors</div>), 
         imageSrc: ResearchPic1, 
         content: (
             <div className='research-text'>
                 <p>
-                    Unlike large rocky planets, many icy moons may have formed as a cold 
-                    mixture of ice, rock, and metal (e.g., Canup and Ward, 2002). Radioactive 
-                    isotopes and tidal forces may warm up a moon’s interior until temperatures 
-                    are high enough to melt solids, leading to denser phases migrating to the 
-                    planetary center (i.e., differentiation). The balance of heat sources and sinks 
-                    may vary across different moons, so the timing of ocean formation, metallic 
-                    core formation, and volcanism should be different for each moon, if such 
-                    processes occurred at all.
+                Icy moons likely formed as a cold unlayered mixture containing water-ice 
+                and/or hydrated rock. Consequently, icy moons like Europa may have taken 
+                billions of years to warm up sufficiently to trigger metallic core formation, 
+                if this event occurred at all (Trinh et al., 2023). I am interested the timing and 
+                extent of differentiation in moons, as well as the present-day interior structure of 
+                such moons. 
                 </p>
                 <br/>
+                <p><strong>Science questions: </strong></p><br/>
+                <ul>
+                    <li>How old is Europa's metal core, if it exists?</li>
+                    <li>What is the composition of metal cores in outer solar system moons?</li>
+                    <li>What is the origin of Europa's ocean?</li>
+                    <li>Is Europa's rocky mantle partially hydrated today?</li>
+                </ul>
+                <br/>
+                <p><strong>Relevant papers: </strong></p><br/>
                 <ol reversed>
-                    <li><strong>KT Trinh</strong>, CJ Bierson, JG O'Rourke, EL Shock (in prep.) 
-                    Compositional Regimes for Fe-C-S-O Systems in Icy Satellites from Accretion 
-                    to Metal Melting.</li>
+                    <li>CJ Bierson, JJ Fortney, <strong>KT Trinh</strong>, MA Kreslavsky (2023). The 
+                	Effect of Jupiter’s Early Luminosity on the Galilean Satellites. <i>PSJ</i> 4 (7), 122.</li>
                     <li><strong>KT Trinh</strong>, CJ Bierson, JG O'Rourke (2023). Slow Evolution of Europa's Interior: 
                     Metamorphic Ocean Origin, Delayed Metallic Core Formation, and Limited Seafloor Volcanism.
                     &nbsp;<i>Science Advances</i> 9 (24), eadf3995.</li>
@@ -44,135 +48,109 @@ function ResearchPage() {
             </div>
         ),
     },
-      { 
-        id: 2, 
-        title: (<div>&#x1F30A; ORIGIN OF EUROPA'S OCEAN</div>),
-        imageSrc: ResearchPic3,
-				content: (
-					<div className='research-text'>
-						<p>
-							While Europa is famously known as an ocean world, over 90% of Europa’s mass 
-							comes from rock and metal. Consequently, Europa’s ocean-ice shell is thin enough to 
-							be entirely sourced from hydrated rock, as opposed to water ice. These two endmember 
-							origins for Europa’s ocean—hydrated rock and water ice—imply different temperature 
-							and chemical conditions during the ocean building process. Consequently, the 
-							origin of Europa’s ocean may lead to different ocean compositions today. As an 
-							affiliate for the MAss Spectrometer for Planetary EXploration (MASPEX) instrument via 
-							the NASA Europa Clipper mission, I am tying ocean compositional measurements to potential 
-							origins for Europa’s ocean.
-						</p>
-						<br/>
-						<ol reversed>
-                <li><strong>KT Trinh</strong>, CJ Bierson, JG O'Rourke (2023). Slow Evolution of Europa's Interior: 
-                    Metamorphic Ocean Origin, Delayed Metallic Core Formation, and Limited Seafloor Volcanism.
-                    &nbsp;<i>Science Advances</i> 9 (24), eadf3995.</li>
-            </ol>
-					</div>
-				)
-    },
     { 
-        id: 3, 
-        title: (<div>&#x1F9F2; ICY MOON DYNAMOS</div>),
-        imageSrc: ResearchPic2, 
+        id: 2, 
+        title: (<div>Planetary Magnetism</div>),
+        imageSrc: ResearchPic3, 
         content: (
             <div className='research-text'>
-                <p>Ganymede is the only moon in our solar system with an 
-                    active dynamo—a magnetic field generator, driven by vigorous 
-                    convection of conductive material (e.g., Bland et al., 2008). Strangely, 
-                    the neighboring moons Europa and Callisto do not have a dynamo today. The 
-                    prospect of an ancient dynamo at Europa and Callisto depends on the thermochemical 
-                    evolution of their metallic cores, if they have such cores at all. My goal is to 
-                    learn whether Ganymede’s modern dynamo may help us understand the intrinsic 
-                    magnetic field histories of all the icy Galilean satellites.</p>
+                <p>I am primarily interested in two kinds of planetary magnetic fields. First, 
+                    there are induced magnetic fields, which reveal the existence of a salty ocean 
+                    underneath the surfaces if icy moons. Induced magnetic field strength can be used 
+                    as a constraint for determining the size and composition of the subsurface ocean. 
+                    Second, there are planetary dynamos, which are magnetic field generators driven by 
+                    the vigorous motion of electrically conductive material. The most plausible 
+                    dynamo mechanism in icy moons would be convection in an iron-rich core. Ganymede is 
+                    the only moon known to sustain an active dynamo today, while our Moon shows strong 
+                    evidence of an ancient dynamo. Io, Europa, and Callisto either have 
+                    weak dynamos below the detection limit of the Galileo magnetometer, or they lack 
+                    dynamos entirely. Crucially, the absence or presence of dynamos places strong constraints 
+                    on the interior structure and thermal history of celestial bodies.
+                </p>
+                <br/>
+                <p><strong>Science questions: </strong></p><br/>
+                    <ul>
+                        <li>What moons in our solar system have dynamos today? And in the past?</li>
+                        <li>What is the likely age of Ganymede's dynamo?</li>
+                        <li>Is ongoing metal core formation consistent with Ganymede's dynamo?</li>
+                        <li>What kinds of core crystallization mechanisms (e.g., Fe snow, FeS layers, inner core growth) are 
+                            relevant to moon-sized bodies?
+                        </li>
+                    </ul>
+                    <br/>
+                    <p><strong>Relevant papers: </strong></p><br/>
+                    <ol reversed>
+                        <li><strong>KT Trinh</strong>, CJ Bierson, JG O'Rourke (2024). A Critical 
+                        Core Size for Dynamo Action at the Galilean Satellites.
+                        <i>Geophysical Research Letters</i></li>
+                    </ol>
             </div>
         )
     },
 			{ 
-				id: 4, 
-				title: (<div>&#x1F30B; ANCIENT OCEAN AT IO?</div>), 
-				content: (
-						<div className='research-text'>
-								<p>The most volcanically active place in our solar system is Jupiter’s moon, Io. 
-										However, we do not know whether Io was born as an ice-free body. Previous studies 
-										explored the idea of Io losing its initial water inventory during the moon’s 
-										evolution (e.g., Bierson and Steinbrügge, 2021). My thermal and compositional 
-										evolution models are tools for understanding the diversity of the Galilean moons.</p>
-										<br/>
-										<ol reversed>
-												<li>
-														CJ Bierson, JJ Fortney, <strong>KT Trinh</strong>, MA Kreslavsky (2023). The 
-														Effect of Jupiter’s Early Luminosity on the Galilean Satellites. <i>PSJ</i> 4 (7), 122.
-												</li>
-										</ol>
-						</div>
-				),
+				id: 3, 
+				title: (<div>Ocean Habitability</div>),
 				imageSrc: ResearchPic4,
-		},
-			{ 
-				id: 5, 
-				title: (<div>&#x1F9A0; CHEMOSYNTHESIS AND HABITABILITY</div>),
-				imageSrc: ResearchPic5,
 				content: (
 					<div className='research-text'>
 						<p>
-						Life as we know it requires three things: liquid water, energy, and a biologically 
-						essential suite of elements (e.g., Hand et al., 2021). Europa likely meets the first 
-						criteria, but the energy and nutrient budget is less clear. One way to think of 
-						habitability is through metabolisms—chemical reactions that life uses to get energy. 
-						In the absence of light, life in Europa’s ocean must rely on chemosynthesis 
-						(e.g., methanogenesis). My models of Europa’s long-term evolution provides ocean 
-						compositions, which can be used to compute the Gibbs free energy associated with 
-						various metabolisms.
+						Life as we know it requires three things: liquid water, energy, and a 
+                        biologically essential suite of elements (e.g., Hand et al., 2021). 
+                        Europa and Enceladus meet the first criteria, but the energy and nutrient 
+                        budget over geologic time is less clear. One way to think of habitability is 
+                        through metabolisms—chemical reactions that life uses to get energy (e.g., 
+                        methanogenesis). Metabolisms require a steady delivery of heat and chemical 
+                        energy to avoid a “thermodynamic extinction” (Gaidos et al., 1999). 
+                        My chemical evolution models provide ocean compositions, which can be 
+                        used to compute the Gibbs free energy associated with various metabolisms.
 						</p>
+                        <br/>
+                        <p><strong>Science questions: </strong></p><br/>
+                        <ul>
+                            <li>Does Europa experience seafloor volcanism today? Or in the past?</li>
+                            <li>What is the origin of Europa's ocean?</li>
+                            <li>Is Europa's seafloor today conducive for rock-water reactions (i.e., serpentinization)?</li>
+                            <li>How has the composition of Europa's ocean changed over time?</li>
+                            <li>How has the energy available for chemosynthetic organisms changed over time?</li>
+                        </ul>
+                        <br/>
+                        <p><strong>Relevant papers: </strong></p><br/>
+                        <ol reversed>
+                            <li><strong>KT Trinh</strong>, CJ Bierson, JG O'Rourke (2023). Slow Evolution of Europa's Interior: 
+                            Metamorphic Ocean Origin, Delayed Metallic Core Formation, and Limited Seafloor Volcanism.
+                            &nbsp;<i>Science Advances</i> 9 (24), eadf3995.</li>
+                        </ol>
 					</div>
 				)
 		},
-			{ 
-				id: 6, 
-				title: (<div>&#x1F680; NASA SPACECRAFT MISSIONS</div>),
-				imageSrc: ResearchPic6,
-				content: (
-					<div className='research-text'>
-						<p>
-							I am an affiliate for the <strong>NASA Europa Clipper</strong> mission—a multi-flyby spacecraft 
-							mission to assess Europa’s ocean habitability. My affiliation is with the MAss 
-							Spectrometer for Planetary EXploration (MASPEX) instrument, which will measure neutral 
-							ions near Europa to obtain compositional information. However, my overall research 
-							background complements many investigations related to Europa’s interior, composition, 
-							and habitability.
-						</p><br/>
-						<p>
-							I also participated in the <strong>NASA JPL Planetary Science Summer School</strong>, where my cohort 
-							practiced developing a pre-Phase A mission concept to Neptune’s moon, Triton. I had 
-							two roles in both science and engineering. First, I was the Science Champion for the 
-							Interiors objective, where I managed our priority science questions and observables to 
-							Triton’s interior structure. Second, I was the telecommunications lead, where I 
-							interfaced with other engineers regarding communication between our spacecraft and 
-							the Deep Space Network (DSN).
-						</p><br/>
-						<p>
-							There will be many exciting spacecraft missions to icy satellites during my lifetime, 
-							and I hope to make valuable contributions toward these missions.
-						</p>
-						<br/>
-						<ol reversed>
-							<li>
-								G Steinbrügge, ... <strong>KT Trinh</strong> (6th out of 8+ authors), ... and the Europa Clipper 
-								Geodesy Team (expected 2023). Geodetic Investigations of the Europa Clipper Mission. 
-								<i> AGU Fall Meeting</i>
-							</li>
-							<li>
-								A Steckel, ..., <strong>KT Trinh</strong> (21 total authors) (expected 2023). 
-								The Science Case for Nautilus: A Multi-flyby Mission Concept to Triton. <i>AGU Fall Meeting</i>
-							</li>
-							<li>
-								T Horvath, ..., <strong>KT Trinh</strong> (21 total authors) (expected 2023). 
-								The Architecture of Nautilus: A Multi-flyby Mission Concept to Triton. <i>AGU Fall Meeting</i>
-							</li>
-						</ol>
-					</div>
-				)
-		},
+        { 
+            id: 4, 
+            title: (<div>Icy Surfaces</div>),
+            imageSrc: ResearchPic2,
+                    content: (
+                        <div className='research-text'>
+                            <p>
+                            The surfaces of icy moons are incredibly diverse. Enceladus, 
+                            a moon of Saturn, actively erupts water out of parallel fissures at the 
+                            south polar region. Europa, a moon of Jupiter, boasts a deformed surface 
+                            full of ridges, irradiated salts, and chaotic terrain. Ganymede and Callisto 
+                            are similar in size and bulk density, with adjacent orbits around Jupiter. Yet, 
+                            Ganymede displays a tectonically evolved surfaces, whereas Callisto's surface shows 
+                            no sign of resurfacing. There are 200+ other moons in our solar system with varied 
+                            traits too. However, existing studies have yet to solve whether common processes 
+                            or rare events are the primary culprit for icy moon diversity.
+                            <br/><br/>
+                            <p><strong>Science questions: </strong></p><br/>
+                            <ul>
+                                <li>How did Enceladus initially create its Tiger Stripe fractures?</li>
+                                <li>How does Enceladus maintain actively erupting fissures?</li>
+                                <li>Could Europa's double ridges be the frozen remnants of an erupting fissure?</li>
+                                <li>Could metallic core formation at Ganymede (but not Callisto) explain the Ganymede-Callisto surface dichotomy?</li>
+                            </ul>
+                            </p>
+                        </div>
+                    )
+        },
       // Add more topics as needed
     ];
   
@@ -188,14 +166,12 @@ function ResearchPage() {
         <div className="research-page">
             <div className="vertical-flex">
                 <div id="research-summary-container">
-                    <p className="research-text"><strong>I study the formation, evolution, 
-                        and potential habitability of icy moons. </strong>There are over 200 moons 
+                    <p className="research-text"><strong>I study the structure, evolution, 
+                        and potential habitability of outer solar system moons. </strong>There are over 300 moons 
                         in our solar system, but for some reason, many of them look and behave 
                         differently. My specialty is using computer models to explore the 
-                        processes responsible for the diversity we see in all our moons.<br/><br/>
-                        Check out my <a href='https://picturesque-freezer-4ae.notion.site/a85f2bd573fc440c97456d9eeb456147?v=1aa2748f84b84c248138e5191eed26c6'>Notion</a> 
-                        &nbsp;for an updated list of ongoing and future projects. I am also happy 
-                        to discuss project ideas for collaboration.
+                        processes responsible for the diversity we see in all our moons.<br/><br/> 
+                        I am also happy to discuss project ideas for collaboration.
                     </p>
                 </div>
 

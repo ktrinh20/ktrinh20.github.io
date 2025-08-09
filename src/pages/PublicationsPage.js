@@ -16,18 +16,14 @@ function PublicationsPage() {
 
                 <p className="publications-header">Publications</p>
                 <p><b>*</b> Indicates that the author-list is sorted alphabetically, except for the first author.</p><br/>
+                <h4 className='authorship-header'>First-author</h4>
                 <ol reversed className="body-text">
                     <li>
-                        <b>KT Trinh</b>, CJ Bierson, JG O’Rourke (in prep.). Small Metal Cores may Prevent Dynamo 
-                        Activity at Europa.
+                        <b>KT Trinh</b>, E Trembath-Reichert, EL Shock (in prep.). Metamorphism May Power Methanogenesis at Europa.
                     </li>
                     <li>
-                        AV Steckel, ..., <b>*KT Trinh</b> (21 total authors) (in prep.). The Science Case for 
-                        Nautilus: A Multi-flyby Mission Concept to Triton. 
-                    </li>
-                    <li>
-                        CJ Bierson, JJ Fortney, <b>KT Trinh</b> and M Kreslavsky (2023). Jupiter's Early Luminosity May Have 
-                        Driven Off Io's Initial Water Inventory. <i>Planetary Science Journal</i>. <a href='https://iopscience.iop.org/article/10.3847/PSJ/ace2c7'>Link</a>
+                        <b>KT Trinh</b>, CJ Bierson, JG O’Rourke (2024). A Critical Core Size for Dynamo Action at 
+                        the Galilean Satellites. <i>Geophysical Research Letters</i>. <a href='https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL110680'>Link</a>
                     </li>
                     <li>
                         <b>KT Trinh</b>, CJ Bierson, JG O’Rourke (2023). Slow Evolution of Europa's 
@@ -37,8 +33,53 @@ function PublicationsPage() {
                 </ol>
                 <br/>
 
+                <h4 className='authorship-header'>Co-author</h4>
+                <ol reversed className="body-text">
+                    <li>
+                        AV Steckel, ..., <b>*KT Trinh</b> (21 total authors) (in prep.). The Science Case for 
+                        Nautilus: A Multi-flyby Mission Concept to Triton. 
+                    </li>
+                    <li>
+                        LJ Tilke, <b>KT Trinh</b>, JG O'Rourke (submitted). A Modern Dynamo as a Consequence 
+                        of Triton's Capture at Neptune.
+                    </li>
+                    <li>
+                        ME Brown, M Belyakov, S Chandra, M Davis, M McDowell, A Pandya, <b>KT Trinh</b>, SK Trumbo (submitted).
+                    </li>
+                    <li>
+                        CJ Bierson, JJ Fortney, <b>KT Trinh</b> and M Kreslavsky (2023). Jupiter's Early Luminosity May Have 
+                        Driven Off Io's Initial Water Inventory. <i>Planetary Science Journal</i>. <a href='https://iopscience.iop.org/article/10.3847/PSJ/ace2c7'>Link</a>
+                    </li>
+                </ol>
+                <br/>
+
                 <p className="publications-header">Conference abstracts</p>
                 <ol reversed className="body-text">
+                    <li>
+                        <b>KT Trinh</b>, CJ Bierson, JG O’Rourke (2025). A Critical Core Size for Dynamo Action at 
+                        the Galilean Satellites. Japan Geoscience Union. <b className='emphasize-text'>INVITED</b>
+                    </li>
+                    <li>
+                        JG O'Rourke, LJ Tilke, <b>KT Trinh</b> (2025, exp). Prospects for Modern Dynamos Driven by Chemical 
+                        Convection in the Metal Cores of Io and Triton. 56th LPSC. Poster.
+                    </li>
+                    <li>
+                        <b>KT Trinh</b>, CJ Bierson, JG O’Rourke (2025, exp). A Critical Core Size for Dynamo Action at 
+                        the Galilean Satellites. 55th LPSC. Oral.
+                    </li>
+                    <li>
+                        <b>KT Trinh</b>, CJ Bierson, JG O’Rourke (2024). A Critical Core Size for Dynamo Action at 
+                        the Galilean Satellites. AGU Fall meeting. Oral.
+                    </li>
+                    <li>
+                        L Tilke, <b>KT Trinh</b>, JG O’Rourke (2024). A Modern Dynamo as a Consequence of Triton's 
+                        Capture at Neptune. AGU Fall meeting. Poster.
+                    </li>
+                    <li>
+                        SD Vance, ..., <b>*KT Trinh</b> (33 total authors) (2024). Europa Clipper's 
+                        Investigation of Europa's Habitability 
+                        AbSciCon. Poster.
+                    </li>
                     <li>
                         <b>KT Trinh</b>, CJ Bierson, JG O’Rourke, EL Shock (2023). Compositional  
                         Evolution of Europa's Fe-FeS Alloys from Accretion to Metal Melting. 

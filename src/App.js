@@ -8,8 +8,7 @@ import OutreachPage from './pages/OutreachPage';
 import VolunteerPage from './pages/VolunteerPage';
 //import SciCommPage from './pages/SciCommPage';
 import PressPage from './pages/PressPage';
-import KevinLogo from './photos/moon-pie-slice.png';
-import MoonLogo from './photos/moon-logo.png';
+import MoonLogo from './photos/metallic core formation.png';
 import './App.css';
 
 function App() {
@@ -24,7 +23,7 @@ function App() {
           </div>
           <div className="right">
             <h1 id="full-name-header">Kevin T. Trinh</h1>
-            <h2 id="professional-title">PhD Candidate + Planetary Scientist</h2>
+            <h2 id="professional-title">Barr Postdoctoral Fellow + Planetary Scientist.</h2>
           </div>
         </div>
 
