@@ -406,12 +406,12 @@
 
 <nav>
   <div class="nav-inner">
-    <a class="nav-logo" href="#" onclick="showPage('home')">Kevin T. Trinh<span>.</span></a>
+    <a class="nav-logo" href="#home" onclick="showPage('home')">Kevin T. Trinh<span>.</span></a>
     <div class="nav-links">
-      <a href="javascript:void(0)" onclick="showPage('home')" class="active" id="nav-home">Home</a>
-      <a href="javascript:void(0)" onclick="showPage('research')" id="nav-research">Research</a>
-      <a href="javascript:void(0)" onclick="showPage('publications')" id="nav-publications">Publications</a>
-      <a href="javascript:void(0)" onclick="showPage('cv')" id="nav-cv">CV</a>
+      <a href="#home" onclick="showPage('home')" class="active" id="nav-home">Home</a>
+      <a href="#research" onclick="showPage('research')" id="nav-research">Research</a>
+      <a href="#publications" onclick="showPage('publications')" id="nav-publications">Publications</a>
+      <a href="#cv" onclick="showPage('cv')" id="nav-cv">CV</a>
     </div>
   </div>
 </nav>
@@ -796,13 +796,21 @@
 </div>
 
 <script>
+  const PAGES = ['home', 'research', 'publications', 'cv'];
+
   function showPage(name) {
+    if (!PAGES.includes(name)) name = 'home';
     document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
     document.getElementById('page-' + name).classList.add('active');
     document.querySelectorAll('.nav-links a').forEach(a => a.classList.remove('active'));
     document.getElementById('nav-' + name).classList.add('active');
     window.scrollTo(0, 0);
+    history.replaceState(null, '', '#' + name);
   }
+
+  // Restore page from URL hash on load
+  const initialPage = window.location.hash.replace('#', '') || 'home';
+  showPage(initialPage);
 
   function positionHeroPhoto() {
     const photoWrap = document.querySelector('.hero-photo-wrap');
