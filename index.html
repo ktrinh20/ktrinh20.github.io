@@ -329,12 +329,13 @@
   .cv-entry-org { font-size: 13.5px; color: var(--text-muted); margin-top: 2px; }
   .cv-entry-desc { font-size: 13px; color: var(--text-muted); margin-top: 4px; line-height: 1.6; }
   .cv-award {
-    display: flex; justify-content: space-between; align-items: baseline;
+    display: grid; grid-template-columns: 1fr auto 3.5em; align-items: baseline;
     padding: 0.6rem 0; border-bottom: 1px solid var(--border); gap: 1rem;
   }
   .cv-award:last-child { border-bottom: none; }
   .cv-award-name { font-size: 13.5px; }
   .cv-award-amount { font-size: 12px; color: var(--text-muted); text-align: right; white-space: nowrap; }
+  .cv-award-year { font-size: 12px; color: var(--text-muted); text-align: right; white-space: nowrap; }
   .cv-download {
     display: inline-flex; align-items: center; gap: 8px;
     background: var(--accent); color: #fff;
@@ -735,30 +736,37 @@
           <div class="cv-award">
             <span class="cv-award-name">Melza M. and Frank Theodore Barr Fellowship, Caltech</span>
             <span class="cv-award-amount">$258,000</span>
+            <span class="cv-award-year">2026</span>
           </div>
           <div class="cv-award">
             <span class="cv-award-name">NASA FINESST</span>
             <span class="cv-award-amount">$150,000</span>
+            <span class="cv-award-year">2020</span>
           </div>
           <div class="cv-award">
             <span class="cv-award-name">NSF Graduate Research Fellowship (declined)</span>
             <span class="cv-award-amount">$146,000</span>
+            <span class="cv-award-year">2019</span>
           </div>
           <div class="cv-award">
             <span class="cv-award-name">NASA Europa Clipper ICONS (Science PI)</span>
             <span class="cv-award-amount">$16,507</span>
+            <span class="cv-award-year">2026</span>
           </div>
           <div class="cv-award">
             <span class="cv-award-name">Section Award for Graduate Research (AGU Honor), Study of the Earth Deep Interior</span>
-            <span class="cv-award-amount">2026</span>
+            <span class="cv-award-amount"></span>
+            <span class="cv-award-year">2026</span>
           </div>
           <div class="cv-award">
             <span class="cv-award-name">3-Minute Thesis Competition (2nd / 170+ grad students)</span>
-            <span class="cv-award-amount">2024</span>
+            <span class="cv-award-amount"></span>
+            <span class="cv-award-year">2024</span>
           </div>
           <div class="cv-award">
             <span class="cv-award-name">Achievement Reward for College Scientists (finalist)</span>
-            <span class="cv-award-amount">2023</span>
+            <span class="cv-award-amount"></span>
+            <span class="cv-award-year">2023</span>
           </div>
         </div>
 
