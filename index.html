@@ -221,6 +221,31 @@
     background: var(--bg-card); border: 1px solid var(--border);
     color: var(--text-muted); white-space: nowrap;
   }
+  /* -------- OPPORTUNITIES -------- */
+  .opp-callout {
+    background: var(--accent-light); border-left: 3px solid var(--accent);
+    border-radius: 8px; padding: 1.25rem 1.5rem; margin-bottom: 2.5rem;
+    font-size: 14.5px; line-height: 1.75; color: var(--text); max-width: 760px;
+  }
+  .opp-callout strong { font-weight: 500; }
+  .opp-list { display: flex; flex-direction: column; gap: 1.5rem; padding-bottom: 4rem; }
+  .opp-card {
+    border: 1px solid var(--border); border-radius: 14px; padding: 2rem;
+    transition: box-shadow 0.15s, border-color 0.15s;
+  }
+  .opp-card:hover { border-color: #c8c2b8; box-shadow: 0 4px 20px rgba(0,0,0,0.04); }
+  .opp-badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 0.875rem; }
+  .opp-badge {
+    font-size: 11.5px; font-weight: 500; padding: 0.2rem 0.6rem; border-radius: 4px;
+    background: var(--accent-light); color: var(--accent);
+  }
+  .opp-badge.neutral { background: var(--bg-card); color: var(--text-muted); border: 1px solid var(--border); font-weight: 400; }
+  .opp-title { font-size: 1.25rem; font-weight: 600; margin-bottom: 0.375rem; }
+  .opp-mentors { font-size: 13.5px; color: var(--text-muted); margin-bottom: 1rem; }
+  .opp-desc { font-size: 14.5px; color: var(--text-muted); line-height: 1.75; margin-bottom: 1rem; text-align: justify; }
+  .opp-reqs { font-size: 13.5px; color: var(--text-muted); line-height: 1.7; margin-bottom: 1.25rem; }
+  .opp-reqs strong { color: var(--text); font-weight: 500; }
+  .opp-links { display: flex; flex-wrap: wrap; gap: 0.75rem; }
   .missions-section { padding: 4rem 0; border-top: 1px solid var(--border); }
   .mission-list { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem; }
   .mission-badge {
@@ -380,12 +405,13 @@
   }
 
   @media (max-width: 640px) {
-    :root { --nav-height: 56px; }
+    :root { --nav-height: 80px; }
     .container { padding: 0 1.2rem; }
-    .nav-inner { padding: 0 1.2rem; }
-    .nav-logo { font-size: 13px; letter-spacing: 0; }
-    .nav-links { gap: 0; }
-    .nav-links a { font-size: 12px; padding: 0.3rem 0.4rem; }
+    .nav-inner { padding: 0 1.2rem; flex-direction: column; align-items: stretch; gap: 0.2rem; }
+    .nav-logo { font-size: 13px; letter-spacing: 0; white-space: nowrap; }
+    .nav-links { gap: 0; justify-content: space-between; overflow-x: auto; scrollbar-width: none; margin: 0 -0.3rem; }
+    .nav-links::-webkit-scrollbar { display: none; }
+    .nav-links a { font-size: 11.5px; padding: 0.3rem 0.3rem; white-space: nowrap; flex-shrink: 0; }
 
     .hero-grid { gap: 1.5rem; padding: 1.5rem 0; }
     .hero-photo-wrap { display: block; width: 100%; margin: 1rem 0; }
@@ -426,6 +452,7 @@
       <a href="#home" onclick="showPage('home')" class="active" id="nav-home">Home</a>
       <a href="#research" onclick="showPage('research')" id="nav-research">Research</a>
       <a href="#publications" onclick="showPage('publications')" id="nav-publications">Publications</a>
+      <a href="#opportunities" onclick="showPage('opportunities')" id="nav-opportunities">Opportunities</a>
       <a href="https://picturesque-freezer-4ae.notion.site/Science-Graphics-dc7dcd811b2d41c28061a1b4ed44bf51" target="_blank" rel="noopener noreferrer" id="nav-graphics">Graphics</a>
       <a href="#cv" onclick="showPage('cv')" id="nav-cv">CV</a>
     </div>
@@ -662,6 +689,49 @@
   </footer>
 </div>
 
+<!-- ========== OPPORTUNITIES ========== -->
+<div class="page" id="page-opportunities">
+  <div class="container">
+    <div class="page-hero">
+      <h1>Opportunities</h1>
+      <p>Summer research projects for undergraduate students.</p>
+    </div>
+
+    <div class="opp-callout">
+      As a postdoc (not a professor), I have limited control over research funds that support students. Still, I sometimes have funding for a summer undergraduate student through programs such as <strong>NASA Europa Clipper ICONS</strong> and <strong>Caltech SURF</strong>. Below are the opportunities I am currently advertising, typically in collaboration with a faculty member.
+    </div>
+
+    <div class="opp-list">
+
+      <div class="opp-card">
+        <div class="opp-badges">
+          <span class="opp-badge">Caltech SURF</span>
+          <span class="opp-badge neutral">Open to Caltech &amp; non-Caltech students</span>
+        </div>
+        <div class="opp-title">Modeling Ganymede's Dynamo</div>
+        <div class="opp-mentors">Mentors: Dr. Kevin Trinh and Prof. Dave Stevenson (Caltech GPS)</div>
+        <p class="opp-desc">Jupiter's moon Ganymede is the only moon known to host an active dynamo today, but the mechanism driving it is still debated: thermal convection, chemical convection (Fe snow or FeS layers), or ongoing core formation. The student will extend the Ganymede thermal evolution model of Trinh et al. (2026) to support these different modes of core mixing within a single framework, then run and statistically analyze many simulations to identify the most likely dynamo mechanism. Much of the work involves deriving physics, writing code, and using a high-performance computing cluster.</p>
+        <div class="opp-reqs">
+          <strong>Required:</strong> numerical methods / computational physics / applied math, introductory physics, basic coding.<br>
+          <strong>Recommended:</strong> geophysics, heat transfer, electricity &amp; magnetism, mechanics.
+        </div>
+        <div class="opp-links">
+          <a class="btn btn-ghost btn-sm" href="https://announcements.surf.caltech.edu/index.cfm?event=ViewAODetail&id=3002&inFrame=&type=SURF&formType=AO_CIT" target="_blank" rel="noopener noreferrer">Full announcement ↗</a>
+          <a class="btn btn-ghost btn-sm" href="mailto:ktt@caltech.edu?subject=SURF%3A%20Modeling%20Ganymede%27s%20Dynamo">Contact: ktt@caltech.edu</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <span>© 2026 Kevin T. Trinh</span>
+      <span><a href="mailto:ktt@caltech.edu" style="color:var(--accent);text-decoration:none;">ktt@caltech.edu</a></span>
+    </div>
+  </footer>
+</div>
+
 <!-- ========== CV ========== -->
 <div class="page" id="page-cv">
   <div class="container">
@@ -860,7 +930,7 @@
 </div>
 
 <script>
-  const PAGES = ['home', 'research', 'publications', 'cv'];
+  const PAGES = ['home', 'research', 'publications', 'opportunities', 'cv'];
 
   function showPage(name) {
     if (!PAGES.includes(name)) name = 'home';
