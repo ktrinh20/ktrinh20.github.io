@@ -81,7 +81,7 @@
   }
   .hero-grid {
     display: grid;
-    grid-template-columns: 1fr 380px;
+    grid-template-columns: 1fr clamp(340px, 40vw, 500px);
     gap: 3rem; align-items: center;
     padding: 2.5rem 0;
   }
@@ -96,7 +96,7 @@
   }
   .hero h1 {
     font-family: 'DM Sans', sans-serif;
-    font-size: clamp(2.1rem, 3.5vw, 3rem);
+    font-size: clamp(2.1rem, 3.5vw, 2.8rem);
     font-weight: 700; line-height: 1.15;
     letter-spacing: -0.02em; margin-bottom: 1.5rem; text-align: justify;
   }
@@ -130,7 +130,8 @@
     border-radius: 16px; display: block;
     border: 1px solid var(--border);
   }
-  .hero-photo-landscape { display: none; aspect-ratio: 3/2; }
+  .hero-photo-portrait { display: none; }
+  .hero-photo-landscape { aspect-ratio: 3/2; }
   .hero-photo-badge {
     position: absolute; bottom: -1.25rem; left: -1.25rem;
     background: #fff; border: 1px solid var(--border);
